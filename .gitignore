@@ -1,14 +1,35 @@
-/__pycache__/
+# python
+__pycache__/
 *.pyc
-.env
+
+# environments
 .venv/
-.env/
+venv/
+env/
+
+# datasets
 data/
 datasets/
-models/
-*.h5
+
+# ML models
 *.pt
 *.pth
+*.h5
 *.onnx
-*.mp4
-*.zip
+
+# artifacts
+artifacts/
+logs/
+runs/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# system
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
