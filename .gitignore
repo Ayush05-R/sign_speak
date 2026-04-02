@@ -1,0 +1,14 @@
+/__pycache__/
+*.pyc
+.env
+.venv/
+.env/
+data/
+datasets/
+models/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.zip
